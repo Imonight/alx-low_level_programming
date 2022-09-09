@@ -19,11 +19,11 @@ int main(void)
 					putchar(i);
 					putchar(c);
 					putchar(e);
-					if (i != 7 || e != '9')
+					if (i != 7 || c = '8' || e != '9')
 					{
 						putchar(',');
 						putchar(' ');
-				}
+					}
 				}
 			}
 		}
