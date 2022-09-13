@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isalpha to check if is a letter
- *@C: is the int use for the argument
+ *_isalpha to check if is a letter, lowercas and upper case
+ *@c: is the int use for the argument
  *Return: 0
  */
 int _isalpha(int c)
