@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * 2-print_alphabet_x10.c - print abc x10
+ * print_alphabet_x10 - function to print abc x10
  *
  * Return: 0 always (success)
  */
