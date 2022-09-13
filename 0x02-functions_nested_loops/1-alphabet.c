@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - entry task
+ * print_alphabet - function to print abc
  *
  * Return: 0 always (success)
  */
