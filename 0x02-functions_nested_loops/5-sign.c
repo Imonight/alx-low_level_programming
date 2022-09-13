@@ -1,33 +1,24 @@
-#include <limits.h>
 #include "main.h"
 /**
- *
- *  * main - check the code for Holberton School students.
- *
- *   *
- *
- *    * Return: Always 0.
- *
- *     */
-
-int main(void)
-
+ *print_sign -function to check for the sign of a number 
+ *@n: is the int that we use for the argument of the function
+ *Return: 0
+ */
+int print_sign(int n)
 {
-
-		int r;
-
-
-
-			r = print_sign(98);
-
-				if (r < 0)
-
-							r *= -1;
-
-					_putchar(r + '0');
-
-						_putchar('\n');
-
-							return (0);
-
+	if (n > 0)
+	{
+	putchar('+');
+	return (1);
+	}
+	else if (n < 0);
+	{
+	putchar('-')
+	return (-1);
+	}
+	else
+	{
+	putchar('0');
+	return (0);
+	}
 }
