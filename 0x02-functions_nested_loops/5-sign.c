@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *print_sign - function to check the sign of a number
- *@c is the int we use for the argument of the function
+ *@n is the int we use for the argument of the function
  *Return: 0
  */
 int print_sign(int n)
@@ -10,7 +10,7 @@ int print_sign(int n)
 	{
 		putchar('+');
 		return (1);
-	}
+}
 	else if (n < 0)
 	{
 		putchar('-');
