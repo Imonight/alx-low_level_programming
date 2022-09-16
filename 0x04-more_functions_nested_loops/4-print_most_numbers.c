@@ -5,7 +5,7 @@
  * Retutn: void
  *
  */
-void print_most_numers(void)
+void print_most_numbers(void)
 {
 	int c = 0;
 
