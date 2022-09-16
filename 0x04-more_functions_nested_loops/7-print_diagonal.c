@@ -4,9 +4,10 @@
  * @n: number of / to be precise
  * Return: void
  */
+
 void print_diagonal(void)
 {
-	int i = 0; int ii;
+	int i = 0, int ii;
 
 	while (i < n && n > 0)
 	{
@@ -16,6 +17,7 @@ void print_diagonal(void)
 			_putcha(' ');
 			ii++;
 		}
+
 		_putchar('\\');
 		_putchar('\n');
 		i++;
