@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  * print_diagonal - diagonal lines are mad of backslashes
- * @n: number of / to be precise
+ * @n: number to be precise
  * Return: void
  */
 
-void print_diagonal(void)
+void print_diagonal(int n)
 {
 	int i = 0, int ii;
 
